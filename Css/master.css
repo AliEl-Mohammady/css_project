@@ -1,0 +1,474 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+strong {
+    font-size: 100x;
+}
+
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box ;   
+}
+
+.ali-mohamed {
+    color: green;
+    font-size: 40px;
+}
+
+#aali_mohamedli {
+    color: blue;
+}
+
+.background {
+    background-color: blueviolet;
+    background-color: rgb(190, 136, 136);
+    background-color: #71c271;
+    background-image: url(../../../Downloads/odoo_icon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-position: 100px 100px;
+    background-size: cover;
+    background-size:contain;
+    background-size: 40px 100px;
+    background-size: 30% 50%;
+    background-position: right top;
+    /* background: blue 100px 100px fixed ; */
+}
+
+.class_one {
+    padding: 100px;
+    padding: 20px 15px 15px 20px;
+    padding: 20px 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.margin {
+    margin: 20px;
+    margin: 20px 15px 20px;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    margin-top: -35px;
+}
+
+.border,
+.grouping {
+    border-width: 2px;
+    background-color: rgb(190, 136, 136);
+    border-color: red;
+    border-style: dashed;
+    border-color: red green black blue;
+    border: 3px solid black;
+    outline: greenyellow solid 2px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+strong {
+    display: block;
+    display: inline-block;
+    width:100px
+}
+
+.visibility {
+    /* display: none; */
+    visibility: hidden;
+}
+
+div p .degree {
+    color:#71c271
+}
+  
+.width_height p {
+    background-color: aquamarine;
+    /* display: inline-block; */
+    /* width: 400px; */
+    /* min-width: 100px; */
+    /* max-width: 150px; */
+    /* height: 150PX; */
+    min-height: 10px;
+    max-height: 15px;
+    width: fit-content;
+}
+
+.overflow {
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    overflow: hidden;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.color_and_text_shadow {
+    color: #0b0a0a;
+    text-shadow: 1px 1px 1px red;
+}
+
+.text_align {
+    text-align: right;
+    text-align: center;
+    direction: rtl;
+    direction: ltr;
+    vertical-align: middle;
+    
+}
+
+.text_decoration_and_text_transformation {
+    text-decoration: line-through;
+    text-decoration: solid;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+.text_spacing {
+    background-color: bisque;
+    width: 300px;
+    letter-spacing: normal;
+    text-indent: 100px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    word-spacing: 2px;
+    white-space: nowrap;
+    white-space: normal;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.text_overflow {
+    background-color: bisque;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: inherit;
+}
+
+.font-family {
+    background-color: #eee;
+    padding: 10px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: "Cairo", sans-serif;  
+}
+
+.font-size {
+    background-color: #eee;
+    padding: 10px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 16px;
+    font-size: 1.5em;
+    font-size: 1.5rem;
+    font-size: 150%;
+    font-size: 3vw;
+}
+
+.font-weight {
+    background-color: #eee;
+    padding: 10px;
+    font-weight: normal;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.float {
+    /* background-color: gold; */
+    padding: 10px;
+}
+
+.float div {
+    background-color: #eee;
+    padding-top: 10px;
+    text-align: center;
+    width: calc(95%/4);
+    width: calc((100%-50px)/4);
+    float: left;
+    margin-left:1%;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.position-one {
+    background-color: #afcb32;
+    width: 200px;
+    position: static;
+    position: fixed;
+    position: sticky;
+    position: absolute;
+    right: 150px;
+    top: 10px;
+    position: relative;
+    left:150px;
+    top: 10px;
+}
+
+.position-two {
+    background-color: #85c61d;
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* .position-two:checked
+.position-two:focus */
+.position-two:hover {
+    background-color: #b34d21;
+}
+ul {
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style: disc inside  ;
+}
+
+table {
+    background-color: #eee;
+    border-spacing: 0px;
+    width: 100%;
+
+}
+th {
+    background-color: rgb(65, 170, 165);
+    border: 1px solid rgb(78, 75, 75);
+    text-align: center;
+
+}
+
+table td {
+    border: 1px solid rgb(78, 75, 75);;
+    text-align: center;
+
+}
+a {
+    color: rgb(255, 0, 144);
+}
+a:visited {
+    text-decoration:none ;
+    color: aqua;
+}
+
+:empty {
+    background-color: #167016;
+}
+.seudo-element::first-letter {
+    color:red;
+}
+
+.seudo-element::first-line {
+    color: rgb(38, 178, 110);
+}
+
+::selection {
+    color: rgb(38, 178, 110);
+    background-color: #0b0a0a;
+}
+
+.after-and-before-element {
+    background-color: aqua;
+    position: relative;
+    width:600px;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.after-and-before-element::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(17, 17, 17);
+}
+
+.after-and-before-element::before {
+    content: "";
+    background-color: rgb(16, 17, 17);
+    position: re;
+    left: -27px;
+    top: 0;
+    border: 5px solid black;
+    width: 10px;
+    height: 100%;
+}
+
+.border-radius {
+    padding: 20px;
+    margin-top: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: #71c271;
+    border-radius: 15px;
+}
+/* SELECT element inside element */
+div p {
+    background-color: #fff;
+}
+/* SELECT id*/
+#id_name {
+    background-color: #fff;
+}
+
+/* SELECT element has class1 and class2 together*/
+.class1.class2{
+    color:#6ec8e9
+}
+
+/* SELECT clild has class2 inside parent has class1 */
+.class1 .class2 {
+    color: #6ec8e9
+}
+
+/* SELECT div and p */
+div ,p {
+    color :#ee1919
+}
+
+/* select child after parent directly */
+.selector > .selector {
+        background-color: #71c271;
+}
+
+/* select element after element directly */
+div + p {
+    color: red;
+}
+
+/* select element after element but not directly */
+div~p {
+    color: red;
+}
+/* select with attribute */
+[title] {
+    color: green;
+}
+/* select element with attribute */
+div[title] {
+    color: green;
+}
+
+/* select with attribute has value */
+[title="attribute-value"] {
+    color: blue;
+}
+
+/* select element with attribute has value which contain string*/
+p[title*="at"] {
+    color: green;
+}
+
+/* select element with attribute has value which contain word*/
+[title~="attribute"] {
+    color: red;
+}
+
+/* select element with attribute has value which contain string in the begining of value*/
+[title^="at"] {
+    color: red;
+}
+
+p :first-child {
+    color:#eeea19;
+}
+
+div :last-child {
+    color: #ee19dc;
+}
+
+div :first-of-type {
+    color: #eee319;
+}   
+
+div :last-of-type {
+    color: #40ee19;
+}
+
+div :only-child {
+    color: #ee1919;
+}
+
+div :only-of-type {
+    color: #1d19ee;
+}
+
+/* reverse selectors */
+/* div :not(.arange){
+    color: red;
+} */
+
+/* chose third element inside div */
+div :nth-child(3) {
+    color: #716ee9;
+}
+
+/* chose third element inside div from button */
+div :nth-last-child(3) {
+    color: #6ec8e9;
+}
+
+/* chose third element of his type inside div */
+div :nth-of-type(3) {
+    color: #c9186b;
+}
+
+/* chose third element of his type inside div from button*/
+div :nth-last-of-type(3) {
+    color: #f3e411;
+}
+
+:root {
+    padding-left: 5px;
+}
+
+input:checked {
+    color :#d71a1a
+}
+
+:empty{
+    padding-left: 5px;
+}
+
+:disabled {
+    color: red;
+}
+
+:required {
+    color: rgb(0, 255, 30);
+}
+
+:focus {
+    color: rgb(0, 255, 30);
+}
+
+::selection {
+    color: rgb(0, 255, 30);
+}
+
+::placeholder {
+    color: rgb(0, 255, 30);
+}
+
+.global-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
